@@ -2,6 +2,7 @@
 CMakeCache.txt
 CMakeFiles/**/*
 build/**/*
+!build/cmake/CMakeLists.txt
 Makefile
 cmake_install.cmake
 /**/hellotworld
