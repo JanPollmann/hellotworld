@@ -5,5 +5,10 @@ build/**/*
 !/build/cmake/CMakeLists.txt
 Makefile
 cmake_install.cmake
+libtworld*.*
 /**/hellotworld
 /**/HelloTworld
+CPack*.*
+/_CPack_Packages/**/*
+*.deb
+install_manifest.txt

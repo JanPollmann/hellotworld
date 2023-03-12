@@ -4,4 +4,6 @@ echo "cmake ..."
 cmake .
 echo "make ..."
 make
-echo "done."
+echo "cpack ..."
+cpack
+echo "build done."
