@@ -1,7 +1,7 @@
 #!/bin/bash
-./buildSrc/clean.sh
+./clean.sh
 echo "cmake ..."
-cmake ./buildSrc/
+cmake .
 echo "make ..."
 make
 echo "done."
