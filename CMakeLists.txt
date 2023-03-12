@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22.1)
+cmake_minimum_required(VERSION 3.0.0)
 project (hellotworld)
 add_library(tworld STATIC library/tworld.cpp)
 target_include_directories( tworld 
