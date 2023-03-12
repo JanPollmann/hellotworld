@@ -6,9 +6,6 @@ target_include_directories( tworld
         "${CMAKE_CURRENT_SOURCE_DIR}/include"
 )
 add_executable(hellotworld src/hellotworld.cpp)
-# link shared
-#target_link_libraries(hellotworld tworldshared)
-# link static
 target_link_libraries(hellotworld tworld)
 
 install(TARGETS tworld hellotworld
